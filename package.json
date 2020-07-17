@@ -1,0 +1,107 @@
+{
+  "name": "codebook-ui",
+  "description": "Essential cross-platform UI components for React Native",
+  "keywords": [
+    "android",
+    "ios",
+    "react",
+    "native",
+    "react-native",
+    "native-modules",
+    "react-component",
+    "navbar",
+    "packager"
+  ],
+  "scripts": {
+    "prepare": "bob build"
+  },
+  "jest": {
+    "preset": "react-native",
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|@shoutem|react-clone-referenced-element|native-base-shoutem-theme)"
+    ],
+    "modulePathIgnorePatterns": [
+      "<rootDir>/lib/"
+    ]
+  },
+  "version": "0.0.1-alpha.1",
+  "license": "Apache-2.0",
+  "private": false,
+  "dependencies": {
+    "@types/styled-components": "^5.0.1",
+    "@types/styled-system": "^5.1.9",
+    "blueimp-md5": "^2.5.0",
+    "clamp": "^1.0.1",
+    "color": "~3.1.2",
+    "create-react-class": "^15.6.3",
+    "eslint-config-prettier": "^6.0.0",
+    "fs-extra": "^2.0.0",
+    "jest-react-native": "^18.0.0",
+    "lodash": "^4.17.14",
+    "native-base-shoutem-theme": "0.3.1",
+    "opencollective-postinstall": "^2.0.2",
+    "print-message": "^2.1.0",
+    "prop-types": "^15.5.10",
+    "react-native-drawer": "2.5.1",
+    "react-native-easy-grid": "0.2.2",
+    "react-native-keyboard-aware-scroll-view": "0.9.1",
+    "react-native-material-ripple": "^0.9.1",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-web": "~0.11.7",
+    "react-tween-state": "^0.1.5",
+    "styled-components": "^5.1.0",
+    "styled-system": "^5.1.5",
+    "tween-functions": "^1.0.1"
+  },
+  "devDependencies": {
+    "@react-native-community/bob": "^0.14.2",
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.2.3",
+    "babel-jest": "^24.8.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-native": "^2.0.0",
+    "eslint-watch": "^5.1.2",
+    "flow-bin": "0.47.0",
+    "husky": "^3.0.9",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "react": "16.4.1",
+    "react-native": "^0.60.4",
+    "react-test-renderer": "16.4.1",
+    "typescript": "^3.9.2"
+  },
+  "gitHead": "5bbeacc403ba97622703699132c55d8359344004",
+  "homepage": "https://github.com/GeekyAnts/codebbok-ui#readme",
+  "main": "src/index.ts",
+  "typings": "./index.d.ts",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": ">=16.4.1",
+    "react-native": ">=0.56.0"
+  },
+  "readmeFilename": "README.md",
+  "react-native": "src/index.ts",
+  "types": "lib/typescript/src/index.d.ts",
+  "files": [
+    "src",
+    "lib"
+  ],
+  "@react-native-community/bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "typescript"
+    ]
+  },
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ]
+}
